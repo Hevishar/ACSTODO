@@ -18,9 +18,12 @@ openssl req -new -newkey rsa:2048 -nodes -out visa_server.csr -keyout visa_serve
 - Tạo file Clients CSR:
 
 ![Tạo file Clients](https://user-images.githubusercontent.com/61931560/207808008-33c959c1-0532-421e-a54e-8b66f313eea0.png)
+![CSR Info](https://user-images.githubusercontent.com/61931560/207811484-12299df8-9896-4464-8ee5-a4517c61c0df.png)
+
 
 
 - Tạo file Signing CSR:
 
 ![Tạo file Clients](https://user-images.githubusercontent.com/61931560/207808051-484a4ee3-cab1-45b9-bcd8-4078810f19aa.png)
+![CSR Info](https://user-images.githubusercontent.com/61931560/207811484-12299df8-9896-4464-8ee5-a4517c61c0df.png)
 
