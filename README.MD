@@ -2,7 +2,7 @@
 
 ## I. Tạo CSR bằng OPENSSL
 
-## 1. Tạo file CSR server bằng OpenSSL
+### 1. Tạo file CSR server bằng OpenSSL
 
 > a. Chạy lệnh sau để tạo file CSR và key để cài đặt CITRIX hoặc Webserver:
 
@@ -32,7 +32,7 @@ Common Name (e.g. server FQDN or YOUR name) []:test3ds2.vietcombank.com.vn
 
 ![This is an image](https://user-images.githubusercontent.com/61931560/207807883-a065d156-9e53-4b58-8b9c-14be844ba11e.png)
 
-## 2. Tạo Clients CSR và Signing CSR bằng Portal
+### 2. Tạo Clients CSR và Signing CSR bằng Portal
 
 > a. Tạo file Clients CSR:
 
@@ -80,7 +80,7 @@ Organizational Unit Name (eg, section) []:ACSMS-MTF-V210-JOINT-STOCK-C0002-48588
 Common Name (e.g. server FQDN or YOUR name) []:test3ds2.vietcombank.com.vn
 ```
 
-## 3. Cài đặt chứng chỉ
+## II. Cài đặt chứng chỉ
 
 > Chứng chỉ nhận được gồm 3 phần SSL, CA, Root. Copy SSL và CA Chia thành 2 file SSl.pem và CA.pem:
 
